@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="388389dc-0f49-4c82-b99a-425b5a88413e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/conf/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/controller/EvaluateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/domain/Evaluate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/mapper/EvaluateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/service/EvaluateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/service/impl/EvaluateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goods_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goods_server/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m_shop_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/m_shop_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m_shop_common/src/main/java/com/mshop/commons/PageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/m_shop_common/src/main/java/com/mshop/commons/PageBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m_shop_common/target/classes/com/mshop/commons/PageBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/m_shop_common/target/classes/com/mshop/commons/PageBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m_shop_common/target/m_shop_common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/m_shop_common/target/m_shop_common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m_shop_common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/m_shop_common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m_shop_common/target/surefire-reports/TEST-com.mshop.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/m_shop_common/target/surefire-reports/TEST-com.mshop.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m_shop_common/target/surefire-reports/com.mshop.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/m_shop_common/target/surefire-reports/com.mshop.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_server/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order_server/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_server/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/src/main/resources/application-dev.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\DevEnv\repository" />
+        <option name="userSettingsFile" value="D:\DevEnv\apache-maven-3.9.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="2SoprDWuayry76ZrgxvRosqnqHf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/BackEnd/m_shop_api",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15136719",
+    "project.structure.side.proportion": "0.24193548",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "spring.configuration.checksum": "995fb11746b66454547bc4890dd89988",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mshop.service" />
+      <recent name="com.mshop.mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GoodsServerApplication">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mshop.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="goods_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mshop.GoodsServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="order_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mshop.OrderServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mshop.UserServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="388389dc-0f49-4c82-b99a-425b5a88413e" name="Changes" comment="" />
+      <created>1689822991461</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689822991461</updated>
+      <workItem from="1689822992269" duration="19493000" />
+      <workItem from="1689919226481" duration="33269000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
