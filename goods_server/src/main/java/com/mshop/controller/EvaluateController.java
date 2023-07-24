@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 public class EvaluateController {
@@ -17,8 +18,14 @@ public class EvaluateController {
     private EvaluateService evaluateService;
 
     @GetMapping("/getEvaluateList")
-    public Object getEvaluateList(Long goodsId, Integer evaluateLevel, Long pageNo, Long pageSize) {
-        PageBean<List<Evaluate>> pageBean = evaluateService.getEvaluateList(goodsId, evaluateLevel, pageNo, pageSize);
-        return new JsonResult<PageBean>(Code.OK, pageBean);
+    public JsonResult<PageBean> getEvaluateList(Long goodsId, String evaluateLevel, Long pageNo, Long pageSize) {
+        PageBean<List<Map<String, Object>>> pageBean = evaluateService.getEvaluateList(goodsId, evaluateLevel, pageNo, pageSize);
+        return new JsonResult<>(Code.OK, pageBean);
+    }
+
+    @GetMapping("/getCountEvaluateNum")
+    public JsonResult<Map<String, Long>> getCountEvaluateNum(Long goodsId) {
+        Map<String, Long> evaluateNum = evaluateService.getCountEvaluateNum(goodsId);
+        return new JsonResult<>(Code.OK, evaluateNum);
     }
 }
