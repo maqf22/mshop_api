@@ -4,73 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="388389dc-0f49-4c82-b99a-425b5a88413e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/controller/GoodsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/domain/GoodsInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/mapper/GoodsInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/service/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/service/impl/GoodsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods_server/src/main/resources/file.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods_server/src/main/resources/registry.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/config/AlipayConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/config/AmqpConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/domain/OrderInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/domain/VConfirmOrderInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/listener/RabbitMQListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/mapper/OrderInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/mapper/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/mapper/VConfirmOrderInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/service/remote/RemoteGoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/service/remote/RemoteUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order_server/src/main/resources/file.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order_server/src/main/resources/registry.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/java/com/example/TimerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/java/com/example/service/remote/RemoteOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/java/com/example/timer/Timer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/test/java/com/example/TimerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/domain/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/mapper/AddressMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goods_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/GoodsServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/GoodsServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goods_server/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goods_server/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/target/classes/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goods_server/target/classes/com/mshop/GoodsServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/target/classes/com/mshop/GoodsServerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m_shop_common/src/main/java/com/mshop/commons/Code.java" beforeDir="false" afterPath="$PROJECT_DIR$/m_shop_common/src/main/java/com/mshop/commons/Code.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m_shop_common/target/classes/com/mshop/commons/Code.class" beforeDir="false" afterPath="$PROJECT_DIR$/m_shop_common/target/classes/com/mshop/commons/Code.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order_server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/OrderServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/OrderServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_server/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order_server/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_server/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order_server/target/classes/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/UserServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/UserServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_server/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_server/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/target/classes/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_server/target/classes/com/mshop/UserServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/target/classes/com/mshop/UserServerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_server/target/classes/com/mshop/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/target/classes/com/mshop/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_server/target/classes/com/mshop/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/target/classes/com/mshop/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_server/target/classes/com/mshop/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/target/classes/com/mshop/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_server/target/classes/com/mshop/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/target/classes/com/mshop/service/impl/UserServiceImpl.class" afterDir="false" />
-    </list>
+    <list default="true" id="388389dc-0f49-4c82-b99a-425b5a88413e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +59,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/BackEnd/m_shop_api/timer/src/main/resources",
+    "last_opened_file_path": "D:/BackEnd/m_shop_api",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -145,6 +79,7 @@
       <recent name="com.mshop.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BackEnd\m_shop_api" />
       <recent name="D:\BackEnd\m_shop_api\timer\src\main\resources" />
       <recent name="D:\BackEnd\m_shop_api\goods_server\src\main\resources" />
       <recent name="D:\BackEnd\m_shop_api\m_shop_common" />
@@ -197,7 +132,7 @@
       <updated>1689822991461</updated>
       <workItem from="1689822992269" duration="19493000" />
       <workItem from="1689919226481" duration="33467000" />
-      <workItem from="1690162857363" duration="96241000" />
+      <workItem from="1690162857363" duration="96566000" />
     </task>
     <servers />
   </component>
