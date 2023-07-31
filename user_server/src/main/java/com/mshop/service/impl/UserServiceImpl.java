@@ -1,7 +1,9 @@
 package com.mshop.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.mshop.domain.Address;
 import com.mshop.domain.User;
+import com.mshop.mapper.AddressMapper;
 import com.mshop.mapper.UserMapper;
 import com.mshop.service.UserService;
 import org.springframework.beans.BeanUtils;
@@ -9,11 +11,15 @@ import org.springframework.dao.DuplicateKeyException;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Service
 public class UserServiceImpl implements UserService {
     @Resource
     private UserMapper userMapper;
+
+    @Resource
+    private AddressMapper addressMapper;
 
     @Override
     public int login(User user) {
@@ -41,5 +47,12 @@ public class UserServiceImpl implements UserService {
             return 1;
         }
         return 0;
+    }
+
+    @Override
+    public List<Address> getUserAddressByUserId(Long userId) {
+        QueryWrapper<Address> addressQW = new QueryWrapper<>();
+        addressQW.eq("user_id", userId).orderByDesc("is_default");
+        return addressMapper.selectList(addressQW);
     }
 }

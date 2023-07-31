@@ -3,9 +3,11 @@ package com.mshop.controller;
 import com.alibaba.fastjson.JSONObject;
 import com.mshop.commons.Code;
 import com.mshop.commons.JsonResult;
+import com.mshop.domain.Address;
 import com.mshop.domain.User;
 import com.mshop.service.UserService;
 import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,6 +15,7 @@ import javax.annotation.Resource;
 import java.time.Duration;
 import java.util.Calendar;
 import java.util.HashMap;
+import java.util.List;
 import java.util.UUID;
 
 @RestController
@@ -102,6 +105,61 @@ public class UserController {
         return new JsonResult<>(Code.OK, "注册成功", resultData);
     }
 
+    /**
+     * 通过token获取userId
+     *
+     * @param token
+     * @return
+     */
+    @GetMapping("/getUserId")
+    public JsonResult<Long> getUserId(String token) {
+        String userJson = checkUser(token);
+        if (null == userJson) {
+            return new JsonResult<>(Code.NOT_LOGIN, null);
+        }
+        Long userId = JSONObject.parseObject(userJson).getBigInteger("id").longValue();
+        return new JsonResult<>(Code.OK, userId);
+    }
+
+    /**
+     * 跟据用户id获取用户的收货地址
+     *
+     * @param token
+     * @return
+     */
+    @GetMapping("/confirmUserAddress")
+    public JsonResult<List<Address>> confirmUserAddress(String token) {
+        String userJson = checkUser(token);
+        if (null == userJson) {
+            return new JsonResult<>(Code.NOT_LOGIN, null);
+        }
+        Long userId = JSONObject.parseObject(userJson).getBigInteger("id").longValue();
+        List<Address> list = userService.getUserAddressByUserId(userId);
+        return new JsonResult<>(Code.OK, list);
+    }
+
+    /**
+     * 检查用户是否登录
+     *
+     * @param token
+     * @return
+     */
+    private String checkUser(String token) {
+        String userJson = stringRedisTemplate.opsForValue().get("userToken:" + token);
+        if (null == userJson) {
+            return null;
+        }
+        Duration timeout = Duration.ofSeconds(60 * 30);
+        stringRedisTemplate.expire("userToken:" + token, timeout);
+        return userJson;
+    }
+
+    /**
+     * 创建token
+     *
+     * @param user
+     * @return
+     */
     private String createToken(User user) {
         // token是用户登录成功后的身份令牌
         String token = UUID.randomUUID().toString().replace("-", "");
@@ -110,6 +168,13 @@ public class UserController {
         return token;
     }
 
+    /**
+     * 组织要返回用户信息
+     *
+     * @param user
+     * @param token
+     * @return
+     */
     private HashMap<String, Object> getUserInfo(User user, String token) {
         // 要返回的用户信息
         HashMap<String, Object> resultData = new HashMap<>();

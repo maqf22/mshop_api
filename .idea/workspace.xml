@@ -5,17 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="388389dc-0f49-4c82-b99a-425b5a88413e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/domain/EvaluateImg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/mapper/EvaluateImgMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/domain/GoodsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/mapper/GoodsInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods_server/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods_server/src/main/resources/registry.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/config/AlipayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/config/AmqpConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/domain/OrderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/domain/VConfirmOrderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/listener/RabbitMQListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/mapper/OrderInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/mapper/VConfirmOrderInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/service/remote/RemoteGoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/service/remote/RemoteUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_server/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_server/src/main/resources/registry.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timer/src/main/java/com/example/TimerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timer/src/main/java/com/example/service/remote/RemoteOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timer/src/main/java/com/example/timer/Timer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timer/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timer/src/test/java/com/example/TimerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/domain/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/mapper/AddressMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/controller/EvaluateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/controller/EvaluateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/mapper/EvaluateMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/mapper/EvaluateMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/service/EvaluateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/service/EvaluateService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/service/impl/EvaluateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/service/impl/EvaluateServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goods_server/target/classes/com/mshop/controller/EvaluateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/target/classes/com/mshop/controller/EvaluateController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goods_server/target/classes/com/mshop/mapper/EvaluateMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/target/classes/com/mshop/mapper/EvaluateMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goods_server/target/classes/com/mshop/service/EvaluateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/target/classes/com/mshop/service/EvaluateService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goods_server/target/classes/com/mshop/service/impl/EvaluateServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/target/classes/com/mshop/service/impl/EvaluateServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goods_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/GoodsServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/src/main/java/com/mshop/GoodsServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goods_server/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goods_server/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goods_server/target/classes/com/mshop/GoodsServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/target/classes/com/mshop/GoodsServerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m_shop_common/src/main/java/com/mshop/commons/Code.java" beforeDir="false" afterPath="$PROJECT_DIR$/m_shop_common/src/main/java/com/mshop/commons/Code.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m_shop_common/target/classes/com/mshop/commons/Code.class" beforeDir="false" afterPath="$PROJECT_DIR$/m_shop_common/target/classes/com/mshop/commons/Code.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order_server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/OrderServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_server/src/main/java/com/mshop/OrderServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_server/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order_server/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_server/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order_server/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/UserServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/UserServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/src/main/java/com/mshop/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_server/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_server/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_server/target/classes/com/mshop/UserServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/target/classes/com/mshop/UserServerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_server/target/classes/com/mshop/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/target/classes/com/mshop/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_server/target/classes/com/mshop/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/target/classes/com/mshop/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_server/target/classes/com/mshop/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/target/classes/com/mshop/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_server/target/classes/com/mshop/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/target/classes/com/mshop/service/impl/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +80,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
+        <option value="Kotlin Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,43 +106,51 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="2SoprDWuayry76ZrgxvRosqnqHf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/BackEnd/m_shop_api/m_shop_common&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15136719&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.24193548&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;995fb11746b66454547bc4890dd89988&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/BackEnd/m_shop_api/timer/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15136719",
+    "project.structure.side.proportion": "0.24193548",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "spring.configuration.checksum": "995fb11746b66454547bc4890dd89988",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.mshop.service" />
+      <recent name="com.mshop.service.remote" />
       <recent name="com.mshop.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BackEnd\m_shop_api\timer\src\main\resources" />
+      <recent name="D:\BackEnd\m_shop_api\goods_server\src\main\resources" />
       <recent name="D:\BackEnd\m_shop_api\m_shop_common" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.GoodsServerApplication">
+  <component name="RunManager" selected="Spring Boot.TimerApplication">
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mshop.EurekaServerApplication" />
@@ -105,6 +168,13 @@
     <configuration name="OrderServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="order_server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mshop.OrderServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="timer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.TimerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,11 +197,17 @@
       <updated>1689822991461</updated>
       <workItem from="1689822992269" duration="19493000" />
       <workItem from="1689919226481" duration="33467000" />
-      <workItem from="1690162857363" duration="17987000" />
+      <workItem from="1690162857363" duration="96241000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
