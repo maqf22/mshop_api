@@ -13,6 +13,9 @@
         <option value="$PROJECT_DIR$/goods_server/pom.xml" />
         <option value="$PROJECT_DIR$/order_server/pom.xml" />
         <option value="$PROJECT_DIR$/timer/pom.xml" />
+        <option value="$PROJECT_DIR$/sec_kill_common/pom.xml" />
+        <option value="$PROJECT_DIR$/sec_kill_order_server/pom.xml" />
+        <option value="$PROJECT_DIR$/sec_kill_goods_server/pom.xml" />
       </list>
     </option>
   </component>

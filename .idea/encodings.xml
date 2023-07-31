@@ -7,6 +7,10 @@
     <file url="file://$PROJECT_DIR$/m_shop_common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/m_shop_common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order_server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sec_kill_common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sec_kill_common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sec_kill_goods_server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sec_kill_order_server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/timer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user_server/src/main/java" charset="UTF-8" />
   </component>

@@ -4,7 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="388389dc-0f49-4c82-b99a-425b5a88413e" name="Changes" comment="" />
+    <list default="true" id="388389dc-0f49-4c82-b99a-425b5a88413e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sec_kill_common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_common/src/main/java/com/mshop/commons/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_common/src/test/java/com/mshop/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/SecKillGoodsServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/controller/goodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/domain/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/mapper/GoodsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/service/GoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/test/java/com/mshop/SecKillGoodsServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/src/main/java/com/mshop/SecKillOrderServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/src/test/java/com/mshop/SecKillOrderServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timer/src/main/java/com/example/domain/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timer/src/main/java/com/example/seckill/SecKillTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timer/src/main/java/com/example/service/remote/RemoteSecKillGoodsServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/timer/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +52,8 @@
       <list>
         <option value="Enum" />
         <option value="Kotlin Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -59,7 +96,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/BackEnd/m_shop_api",
+    "last_opened_file_path": "D:/BackEnd/m_shop_api/sec_kill_goods_server/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,7 +105,7 @@
     "project.structure.proportion": "0.15136719",
     "project.structure.side.proportion": "0.24193548",
     "settings.editor.selected.configurable": "File.Encoding",
-    "spring.configuration.checksum": "995fb11746b66454547bc4890dd89988",
+    "spring.configuration.checksum": "84cff778fdb8499a71d6d0e9af627808",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -79,10 +116,11 @@
       <recent name="com.mshop.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BackEnd\m_shop_api\sec_kill_goods_server\src\main\resources" />
+      <recent name="D:\BackEnd\m_shop_api\sec_kill_order_server\src\main\resources" />
       <recent name="D:\BackEnd\m_shop_api" />
       <recent name="D:\BackEnd\m_shop_api\timer\src\main\resources" />
       <recent name="D:\BackEnd\m_shop_api\goods_server\src\main\resources" />
-      <recent name="D:\BackEnd\m_shop_api\m_shop_common" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.TimerApplication">
@@ -103,6 +141,20 @@
     <configuration name="OrderServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="order_server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mshop.OrderServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecKillGoodsServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="sec_kill_goods_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mshop.SecKillGoodsServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecKillOrderServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="sec_kill_order_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mshop.SecKillOrderServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,7 +184,10 @@
       <updated>1689822991461</updated>
       <workItem from="1689822992269" duration="19493000" />
       <workItem from="1689919226481" duration="33467000" />
-      <workItem from="1690162857363" duration="96566000" />
+      <workItem from="1690162857363" duration="97717000" />
+      <workItem from="1690784838949" duration="1688000" />
+      <workItem from="1690786566179" duration="240000" />
+      <workItem from="1690786810996" duration="6258000" />
     </task>
     <servers />
   </component>

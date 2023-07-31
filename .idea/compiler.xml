@@ -9,10 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="timer" />
         <module name="order_server" />
+        <module name="sec_kill_common" />
         <module name="goods_server" />
+        <module name="sec_kill_goods_server" />
+        <module name="m_shop_common" />
+        <module name="sec_kill_order_server" />
         <module name="user_server" />
         <module name="eureka-server" />
-        <module name="m_shop_common" />
       </profile>
     </annotationProcessing>
   </component>
@@ -21,6 +24,8 @@
       <module name="eureka-server" options="-parameters" />
       <module name="goods_server" options="-parameters" />
       <module name="order_server" options="-parameters" />
+      <module name="sec_kill_goods_server" options="-parameters" />
+      <module name="sec_kill_order_server" options="-parameters" />
       <module name="timer" options="-parameters" />
       <module name="user_server" options="-parameters" />
     </option>
