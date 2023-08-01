@@ -5,42 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="388389dc-0f49-4c82-b99a-425b5a88413e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sec_kill_common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_common/src/main/java/com/mshop/commons/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_common/src/test/java/com/mshop/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/SecKillGoodsServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/controller/goodsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/domain/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/mapper/GoodsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/service/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/service/GoodsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/test/java/com/mshop/SecKillGoodsServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/src/main/java/com/mshop/SecKillOrderServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/src/test/java/com/mshop/SecKillOrderServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/java/com/example/domain/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/java/com/example/seckill/SecKillTimer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/java/com/example/service/remote/RemoteSecKillGoodsServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/timer/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +152,7 @@
       <workItem from="1690162857363" duration="97717000" />
       <workItem from="1690784838949" duration="1688000" />
       <workItem from="1690786566179" duration="240000" />
-      <workItem from="1690786810996" duration="6258000" />
+      <workItem from="1690786810996" duration="8402000" />
     </task>
     <servers />
   </component>
