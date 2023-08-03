@@ -5,7 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="388389dc-0f49-4c82-b99a-425b5a88413e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/service/remote/RemoteUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/src/main/java/com/mshop/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/src/main/java/com/mshop/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/src/main/java/com/mshop/listener/SecKillListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/src/main/java/com/mshop/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/src/main/java/com/mshop/remote/RemoteUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/src/main/java/com/mshop/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_kill_order_server/src/main/java/com/mshop/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timer/src/main/java/com/example/config/RabbitMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goods_server/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goods_server/src/main/resources/file.conf" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/src/main/resources/file.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goods_server/src/main/resources/registry.conf" beforeDir="false" afterPath="$PROJECT_DIR$/goods_server/src/main/resources/registry.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_server/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order_server/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_server/src/main/resources/file.conf" beforeDir="false" afterPath="$PROJECT_DIR$/order_server/src/main/resources/file.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_server/src/main/resources/registry.conf" beforeDir="false" afterPath="$PROJECT_DIR$/order_server/src/main/resources/registry.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sec_kill_goods_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sec_kill_goods_server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/SecKillGoodsServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/SecKillGoodsServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/controller/goodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/controller/goodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/service/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/service/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/java/com/mshop/service/GoodsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sec_kill_goods_server/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sec_kill_goods_server/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sec_kill_order_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sec_kill_order_server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sec_kill_order_server/src/main/java/com/mshop/SecKillOrderServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sec_kill_order_server/src/main/java/com/mshop/SecKillOrderServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sec_kill_order_server/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sec_kill_order_server/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/java/com/example/domain/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/timer/src/main/java/com/example/domain/Goods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/java/com/example/seckill/SecKillTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/timer/src/main/java/com/example/seckill/SecKillTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/timer/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/test/java/com/example/TimerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/timer/src/test/java/com/example/TimerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_server/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user_server/src/main/resources/application-dev.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +60,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\DevEnv\repository" />
-        <option name="userSettingsFile" value="D:\DevEnv\apache-maven-3.9.0\conf\settings.xml" />
+        <option name="localRepository" value="$PROJECT_DIR$/../../DevEnv/repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../DevEnv/apache-maven-3.9.3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../DevEnv/apache-maven-3.9.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -41,6 +74,9 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2SoprDWuayry76ZrgxvRosqnqHf" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,31 +85,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/BackEnd/m_shop_api/sec_kill_goods_server/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15136719",
-    "project.structure.side.proportion": "0.24193548",
-    "settings.editor.selected.configurable": "File.Encoding",
-    "spring.configuration.checksum": "84cff778fdb8499a71d6d0e9af627808",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/maqf/Work/backEnd/mshop_api/timer/src/main/java/com/example&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15136719&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.24193548&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1d5dba54610588f6db85ed7f01016120&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.mshop.service" />
@@ -81,14 +117,30 @@
       <recent name="com.mshop.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/timer/src/main/java/com/example" />
       <recent name="D:\BackEnd\m_shop_api\sec_kill_goods_server\src\main\resources" />
       <recent name="D:\BackEnd\m_shop_api\sec_kill_order_server\src\main\resources" />
       <recent name="D:\BackEnd\m_shop_api" />
       <recent name="D:\BackEnd\m_shop_api\timer\src\main\resources" />
-      <recent name="D:\BackEnd\m_shop_api\goods_server\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.TimerApplication">
+    <configuration name="TimerApplicationTests.getTimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="timer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.TimerApplicationTests" />
+      <option name="METHOD_NAME" value="getTimeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mshop.EurekaServerApplication" />
@@ -138,6 +190,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TimerApplicationTests.getTimeTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -153,6 +210,14 @@
       <workItem from="1690784838949" duration="1688000" />
       <workItem from="1690786566179" duration="240000" />
       <workItem from="1690786810996" duration="8402000" />
+      <workItem from="1690868212240" duration="135000" />
+      <workItem from="1690868351144" duration="1663000" />
+      <workItem from="1690870309738" duration="298000" />
+      <workItem from="1690870623305" duration="2877000" />
+      <workItem from="1690874386699" duration="764000" />
+      <workItem from="1690875174509" duration="314000" />
+      <workItem from="1690875501568" duration="31570000" />
+      <workItem from="1691027749047" duration="2716000" />
     </task>
     <servers />
   </component>
@@ -164,5 +229,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
